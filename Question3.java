@@ -13,7 +13,7 @@ public class Question3
     Scanner sc = new Scanner(System.in);
     /*System.out.print("input the integer: ");*/
     Integer inputint = sc.nextInt();
-    double multiplyint = inputint*inputint;
+    Integer multiplyint = inputint*inputint;
     /*System.out.println("Your multiplied integer is : " + multiplyint);*/
     System.out.println(multiplyint);
   }
