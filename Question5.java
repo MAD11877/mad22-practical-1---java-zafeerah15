@@ -30,7 +30,7 @@ public class Question5
 		int i;
         /*System.out.println("How many integers would you like to input");*/
 		int x = input.nextInt();
-        System.out.println("Input the integers:");
+        /*System.out.println("Input the integers:");*/
         for (i = 0; i <x; i++){ 
          int n = input.nextInt();
             cnt[--n]++;	
