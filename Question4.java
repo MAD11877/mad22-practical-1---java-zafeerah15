@@ -20,12 +20,14 @@ public class Question4
     Scanner sc = new Scanner(System.in);
     /*System.out.print("input the integer: ");*/
     Integer inputint = sc.nextInt();
-    for (int i = 0; i < inputint + 1; i++) {
-      for (int j = 0; j < i; j++) {
-        System.out.print("*");
-    }
-    System.out.println("");
-  }
+    for (int i=0; i<inputint; i++)
+        {
+            for (int j=inputint; j>i; j--)
+            {    
+                System.out.print("*");
+            }
+            System.out.println("");
+  } 
   }
 }
 
