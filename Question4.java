@@ -17,7 +17,7 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
      
-    Scanner in = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     System.out.print("input the integer: ");
     Integer inputint = sc.nextInt();
     for (int i = 0; i < inputint + 1; i++) {
@@ -25,7 +25,7 @@ public class Question4
         System.out.print("*");
     }
     System.out.println("");
-    
+  }
   }
 }
-}
+
