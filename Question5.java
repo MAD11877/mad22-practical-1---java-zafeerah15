@@ -28,7 +28,7 @@ public class Question5
         Scanner input = new Scanner(System.in);
         int cnt[] = new int[100];
 		int i;
-        System.out.println("How many integers would you like to input(Max.100?)");
+        /*System.out.println("How many integers would you like to input");*/
 		int x = input.nextInt();
         System.out.println("Input the integers:");
         for (i = 0; i <x; i++){ 
@@ -42,7 +42,7 @@ public class Question5
                 max = n;
             }
         }
-         System.out.println("Mode value(s)in ascending order:");
+        /*System.out.println("Mode value(s)in ascending order:");*/
         for (i = 0; i < cnt.length; i++){
             if (cnt[i] == max){
                 System.out.println(i + 1);
