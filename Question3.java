@@ -10,7 +10,10 @@ public class Question3
      * Hint: in.nextInt() to read integer
      */
      
-    Scanner in = new Scanner(System.in);
-    
+    Scanner sc = new Scanner(System.in);
+    System.out.print("input the integer: ");
+    Integer inputint = sc.nextInt();
+    double multiplyint = inputint*inputint;
+    System.out.println("Your multiplied integer is : " + multiplyint);
   }
 }
